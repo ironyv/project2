@@ -1,5 +1,8 @@
 body{
 .intro-body {
-background-color: #CCC4C4;
+background-color: black;
+}
+.intro {
+  background-color: black;
 }
 }
