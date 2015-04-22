@@ -341,7 +341,7 @@ a:focus {
 }
 textarea.medium
 {
-	height: 50%;
+	height: 300px;
 	width: 100%;
 }
 .btn-default:hover,
