@@ -30,10 +30,9 @@ h6 {
 
 h3.non-title{
     margin: 0 0 35px;
-    text-transform: uppercase;
+    text-transform: none;
     font-weight: 700;
     letter-spacing: 1px;
-    padding-top: 30px;   
 }
 
 h3.modal-title{
