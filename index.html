@@ -342,6 +342,71 @@
                                 </ul>
                                 </div>
                             </div>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-primary btn-md" data-toggle="modal" data-target="#myModal">
+                                Contact us to get involved with WUGI!
+                            </button>
+
+                            <!-- Modal -->
+                            <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                <div class="modal-dialog">
+                                  <div class="modal-content">
+                                    <div class="modal-header">
+                                      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                      <h3 class="modal-title" id="myModalLabel">Contact Information</h3>
+                                  </div>
+                                  <p class="modal-words"> We are so happy you have chosen to join our organization. Please input your contact information and in which areas you would like to help and we will contact you within 48 hours! </p>
+                                  <div class="modal-body">
+                                      <div class="input-group">
+                                         <h4 class="modal-words"> Name </h4>
+                                         <input type="text" class="form-control" placeholder = "Blake Avery">
+                                     </div>
+                                     <div class="input-group">
+                                         <h4 class="modal-words"> Phone Number </h4>
+                                         <input type="text" class="form-control" placeholder = "513-123-4567">
+                                     </div>
+                                     <div class="input-group">
+                                         <h4 class="modal-words"> Email </h4>
+                                         <input type="text" class="form-control" placeholder = "email@domain.com">
+                                     </div>
+                                     <div class="input-group">
+                                         <h4 class="modal-words"> How Would You Like to Help </h4>
+                                         <form>
+                                            <input type="checkbox" name="chk_group" value="IT">
+                                            International Trips
+                                            <input type="checkbox" name="chk_group" value="ER">
+                                            Equipment Repair
+                                            <input type="checkbox" name="chk_group" value="ST">
+                                            Staff Training
+                                            <input type="checkbox" name="chk_group" value="EM">
+                                            Equipment Maintenance
+                                            <br>
+                                            <input type="checkbox" name="chk_group" value="$">
+                                            Fundraising
+                                            <input type="checkbox" name="chk_group" value="RB">
+                                            UVG Relationship
+                                        </div>
+                                    </form>
+                                </div>
+                                <div class="modal-footer">
+                                    <button type="button" class="btn btn-default" data-dismiss="modal">Cancel</button>
+                                    <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#thankyou">Submit</button>
+                                </div>
+
+                                <!-- Order has been received section -->
+                                <div class="modal fade" id="thankyou" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                                    <div class="modal-dialog">
+                                      <div class="modal-content">
+                                        <div class="modal-header">
+                                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                                          <h4 class="modal-title" id="myModalLabel">Thank you!</h4>
+                                      </div>
+                                      <div class="modal-body">
+                                       <h4 class="modal-words">Your information has been received! Please wait and we will contact you within 48 hours.</h4>
+                                   </div>
+                               </div>
+                           </div>
+                       </div>
                     </div>
                 </section>
                 
